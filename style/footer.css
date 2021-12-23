@@ -1,0 +1,33 @@
+
+/* footer */
+footer {
+  background: #2F303A;
+  width: 100%;
+  padding: 60px 0;
+}
+.footer_logo {
+  transition: .4s;
+  color: var(--color-footer-link);
+}
+.footer_logo:hover span {
+  color: var(--color-footer-link);
+  transition: .4s;
+}
+footer ul  {
+  padding-top: 20px;
+}
+.contact {
+  margin-top: 9px;
+}
+.contact_footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.contact {    
+  display: flex;
+  width: 100%;
+}
+.contact a {
+color: var(--color-contact);
+}
