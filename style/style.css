@@ -48,6 +48,7 @@ img {
   --color-contact: rgba(255, 255, 255, 0.6);;
   --color-desc: #757575; /* card description */
   --color-footer-link: #fff;
+  --secondary-background-color: #f5f4fa;
 }
 
 /* часто используемые стили */

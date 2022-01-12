@@ -3,6 +3,7 @@
   background-color: #2F303A;
   background-image:  url(../img/home/bg_first_section.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   height: 600px;
   padding-top: 0; 
   padding-bottom: 0;
@@ -58,6 +59,8 @@
   display: flex;
   font-weight: 400;
   align-items: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .second_section ul {
   flex-wrap: wrap;
@@ -150,5 +153,12 @@
   text-align: center;
   color: var(--color-desc);
 }
-
+.box-skills-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+}
 
