@@ -32,7 +32,7 @@
             <!-- about us / contact -->
             <div class="contact_header">
                 <a class="link link_contact" href="mailto:info@devstudio.com">
-                    <svg>
+                    <svg class="info-contacts-icon" width="10" height="16">
                         <use href="img/svg-sprite.svg#icon-mail"></use>
                     </svg>
                     info@devstudio.com
@@ -153,7 +153,7 @@
             <h2 class="headline">Наша команда</h2>    
             <!-- card -->
             <ul>
-                <li>
+                <li class="fourth_section_card">
                     <!-- img_card -->
                     <img src="img/home/igor_demyanko.jpg" width="270" height="260" alt="Игорь Демьяненко">
                     <div class="desc_card">
@@ -197,7 +197,7 @@
                           </ul>            
                     </div>
                 </li>
-                <li>
+                <li class="fourth_section_card">
                     <!-- img_card -->
                     <img src="img/home/olga_repina.jpg" width="270" height="260" alt="Ольга Репина">
                     <div class="desc_card">
@@ -241,7 +241,7 @@
                           </ul>         
                     </div>
                 </li>
-                <li>
+                <li class="fourth_section_card">
                     <!-- img_card -->
                     <img src="img/home/nikolai_tarasov.jpg" width="270" height="260" alt="Николай Тарасов">
                     <div class="desc_card">
@@ -285,7 +285,7 @@
                           </ul>        
                     </div>
                 </li>
-                <li>
+                <li class="fourth_section_card">
                     <!-- img_card -->
                     <img src="img/home/mihail_ermakov.jpg" width="270" height="260" alt="Михаил Ермаков">
                     <div class="desc_card">
@@ -332,22 +332,105 @@
             </ul>
         </div>
     </section>
+    <!-- clients -->
+    <section class="section-clients">
+      <div class="container">
+        <h2 class="section-clients-title">Постоянные клиенты</h2>
+        <ul class="section-clients-list">
+          <li class="section-clients-item">
+            <a href="" class="section-clients-link">
+              <svg class="section-clients-icon" width="41" height="46.7">
+                <use href="./images/icons.svg#icon-group-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="section-clients-item">
+            <a href="" class="section-clients-link">
+              <svg class="section-clients-icon" width="40" height="52">
+                <use href="./images/icons.svg#icon-group-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="section-clients-item">
+            <a href="" class="section-clients-link">
+              <svg class="section-clients-icon" width="43.5" height="41.2">
+                <use href="./images/icons.svg#icon-group-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="section-clients-item">
+            <a href="" class="section-clients-link">
+              <svg class="section-clients-icon" width="84.5" height="40.6">
+                <use href="./images/icons.svg#icon-group-4"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="section-clients-item">
+            <a href="" class="section-clients-link">
+              <svg class="section-clients-icon" width="62.5" height="45.5">
+                <use href="./images/icons.svg#icon-group-5"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="section-clients-item">
+            <a href="" class="section-clients-link">
+              <svg class="section-clients-icon" width="93.8" height="44">
+                <use href="./images/icons.svg#icon-group-6"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
     <!-- footer -->
-    <footer>
-        <div class="container">
-            <a class="logo footer_logo" href="index.html"><span><b>Web</b></span>Studio</a>
-            <ul>
-                <li>
-                    <a class="footer_link footer_adress link" href="#!" class="footer_adress">г. Киев, пр-т Леси Украинки, 26</a>
+    <footer class="footer-section">
+      <div class="container footer-container">
+            <div>
+              <a class="logo_footer" href="index.html"><span class="logo_span_footer"><b>Web</b></span>Studio</a>
+            <address class="address">
+              <ul class="footer-list">
+                <li class="item"><a href="https://goo.gl/maps/ky1xf9SAD3pNEhLd9" target="_blank" rel="noopener noreferrer"
+                    class="footer-section-address">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="item"><a href="mailto:info@example.com" class="footer-section-contacts">info@example.com</a></li>
+                <li class="item"><a href="tel:+380991111111" class="footer-section-contacts">+38 099 111 11 11</a></li>
+              </ul>
+            </address>  
+            </div>
+            <div class="footer-container-link">
+              <p class="footer-section-text">Присоединяйтесь</p>
+              <ul class="footer-section-list">
+                <li class="footer-section-item">
+                  <a href="" class="footer-section-link">
+                    <svg class="footer-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="contact contact_footer">
-                    <a class="link footer_link" href="mailto:info@example.com">info@example.com</a>
+                <li class="footer-section-item">
+                  <a href="" class="footer-section-link">
+                    <svg class="footer-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twiter"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="contact contact_footer">
-                <a class="link footer_link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <li class="footer-section-item">
+                  <a href="" class="footer-section-link">
+                    <svg class="footer-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
-            </ul>
-        </div>
+                <li class="footer-section-item">
+                  <a href="" class="footer-section-link">
+                    <svg class="footer-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+      </div>
     </footer>
 
 </body>
